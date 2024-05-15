@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# Currency Converter App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple currency converter mobile application built with React Native.
 
-## Get started
+## Overview
 
-1. Install dependencies
+This app allows users to convert currencies between different currencies. Users can select the currency they want to convert from and the currency they want to convert to, enter the amount, and get the converted result instantly.
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Convert currencies between USD, EUR, GBP, and JPY.
+- Real-time conversion using predefined conversion rates.
+- Ability to swap the conversion direction.
+- Clear input and result with a single tap.
 
-   ```bash
-    npx expo start
-   ```
+## Technologies Used
 
-In the output, you'll find options to open the app in a
+- React Native
+- AsyncStorage
+- @react-native-picker/picker
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Clone the repository:
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+https://github.com/keshav-04/Currency-converter-Mobile-App.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Navigate to the project directory:
 
-## Learn more
+```
+cd Currency-converter-Mobile-App
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Install dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+npm install
+```
 
-## Join the community
+4. Run the app:
 
-Join our community of developers creating universal apps.
+```
+npm start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Usage
+
+- Launch the app on your mobile device or emulator.
+- Select the currency you want to convert from and the currency you want to convert to.
+- Enter the amount you want to convert.
+- View the converted result instantly.
+- Optionally, swap the conversion direction or clear the input and result.
+  
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to contribute to this project.
